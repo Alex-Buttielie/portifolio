@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa em js</title>
+    <style>
+        body{
+            background-color:rgb(255, 0, 179);
+            color: white;
+            font: normal 25pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>olá, mundo</h1>
+    <p> já me livrei da maldição</p>
+    <script>
+        window.alert  ('minha primeira mensagem');
+        window.confirm('esta gostando de JS');
+        var nome = window.prompt ('qual é seu nome?');
+        window.alert ('é um prazer te conhcecer, ' + nome);
+        var n1 = Number.parseInt(window.prompt ('digite um numero: '));
+        var n2 = Number.parseInt(window.prompt ('digite um numero: '));
+   
+        var soma = n1 + n2;
+        window.alert ('o resultado da soma é: ' + soma)  ; 
+    </script>
+</body>
+</html>

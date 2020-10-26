@@ -1,0 +1,283 @@
+.body{
+width: auto;
+height: 4500px;
+background: linear-gradient(180deg, #2B2B53 61.38%, #BFBFBF 105.93%);
+zoom: 150%;
+}
+.imagem{
+    position: relative;
+    width: 100%;
+    height: 910px;
+    left: 0px;
+    top: 0px;
+    background: url(teste4.jpg);
+    border-radius: 25px;
+    opacity: 70%;
+}
+div#apresentacao{
+position: absolute;
+width: 683px;
+height: 290px;
+left: 127px;
+top: 350px;
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 160%;
+/* or 37px */
+color: #BBBBBB;
+
+}
+h1#nomeLogo{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 130px;
+    top: 35px;
+    font-family: Alatsi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 160%;
+    /* or 64px */
+    color: #FFFFFF;
+    mix-blend-mode: screen;
+    text-shadow: 0px 2px 2px orange;
+}
+li#sobre{
+position: absolute;
+width: 160px;
+height: 40px;
+left: 400px;
+top: 78px;
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 160%;
+/* or 32px */
+color: #FFFFFF;
+mix-blend-mode: normal;
+text-shadow: 0px 1px 1px orange;
+}
+li#ajuda{ 
+    /* Ajuda */
+position: absolute;
+width: 160px ;
+height: 40px;
+left: 580px;
+top: 78px;
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 160%;
+/* identical to box height, or 32px */
+/* 1 */
+color: #FFFFFF;
+mix-blend-mode: normal;
+text-shadow: 0px 1px 1px orange;
+}
+li#recurso{
+/* Recursos */
+position: absolute;
+width: 160px;
+height: 40px;
+left: 770px;
+top: 78px;
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 160%;
+/* identical to box height, or 32px */
+/* 1 */
+color: #FFFFFF;
+mix-blend-mode: normal;
+text-shadow: 0px 1px 1px orange;
+}
+li#inscreva{
+    /* Inscreva-se */
+position: absolute;
+width: 160px;
+height: 40px;
+left: 980px;
+top: 78px;
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 160%;
+/* or 32px */
+/* 1 */
+color: white;
+mix-blend-mode: normal;
+text-shadow: 0px 1px 1px orange;
+}
+h2#segundoTitulo{
+    /* Seja bem-vindo */
+position: relative;
+width: 758px;
+height: 184px;
+left: 127px;
+top: 130px;
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+/* or 88px */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+border-color: 1px solid #008000;
+text-shadow: 0px 4px 4px green;
+}
+button#meConheca{
+    width: 145px;
+    height: 60px;
+    right: 1302px;
+    top: 730px;
+    background-color: green;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 110%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 25px;
+}
+h3#textoApresentacao{
+width: 683px;
+height: 230px;
+left: 127px;
+top: 410px;
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 160%;
+/* or 37px */
+color: white;
+text-shadow: 0px 4px 4px green
+}
+a#textSobre{
+    color: white;
+}div#imagem2{
+    zoom: 80%;
+    position: relative;
+    width: 573px;
+    height: 603.8px;
+    left: 0px;
+    top: 0px;
+    background: url(teste6.png);
+    }
+    h2#fabricaDeSoftware{
+    position: absolute;
+    width: 60px;
+    height: 320.73px;
+    left: 573px;
+    top: 960px;
+    
+    font-family: Aladin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 130%;
+    /* or 65px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #1B1C3A;
+    
+    mix-blend-mode: normal;
+    }
+    h3#sobreFabricaDeSoftware{position: absolute;
+        width: 882px;
+        height: 932.73px;
+        left: 2000px;
+        top: 1303.64px;
+        
+        font-family: Aladin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 160%;
+        /* or 40px */
+        /* 1 */
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

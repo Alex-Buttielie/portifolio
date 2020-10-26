@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 50,
+            "database": "http",
+            "driver": "PostgreSQL",
+            "group": "Servers2",
+            "name": "PostgreSQL 11",
+            "password": "alex",
+            "port": 5432,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "postgres"
+        }
+    ]
+}
