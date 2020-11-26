@@ -12,7 +12,7 @@
     background: linear-gradient(180deg, black 61.38%, #BFBFBF 105.93%);
     left: 0px;
     right: 0px;
-    zoom: 85%;
+    zoom: 65%;
     /*display: flex;
     flex-direction:column;
     flex-wrap: wrap;
@@ -22,10 +22,10 @@
 
 .imagem3 {
     position: absolute;
-    left: 1900px;
-    top: 920px;
+    left: 2200px;
+    top: 320px;
     zoom: 50%;
-    opacity: 35%;
+    opacity: 15%;
     border-radius: 25px;
 }
 
@@ -126,7 +126,7 @@ li#inscreva {
     width: 758px;
     height: 184px;
     left: 90px;
-    top: 400px;
+    top: -200px;
     font-family: 'Anton', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -144,7 +144,7 @@ button#meConheca {
     position: absolute;
     width: 565px;
     height: 120px;
-    top: 500px;
+    top: 400px;
     background-color: rgb(142, 142, 4);
     font-family: 'Anton', sans-serif;
     font-weight: 200;
@@ -163,7 +163,7 @@ button#meConheca {
     width: 720px;
     height: 230px;
     left: 90px;
-    top: 700px;
+    top: 100px;
     font-family: 'Amatic SC', cursive;
     font-style: normal;
     font-weight: 500;
@@ -183,7 +183,7 @@ a#textSobre {
     width: 975px;
     height: 320.73px;
     left: 90px;
-    top: 700px;
+    top: -50px;
     font-family: 'Anton', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -196,6 +196,7 @@ a#textSobre {
     color: white;
     mix-blend-mode: normal;
     text-shadow: 0px 3px 3px red;
+    transition: 10s;
 }
 
 .sobreFabricaDeSoftware {
@@ -203,7 +204,7 @@ a#textSobre {
     width: 882px;
     height: 932.73px;
     left: 90px;
-    top: 700px;
+    top: -90px;
     font-family: 'Amatic SC', cursive;
     font-style: normal;
     font-weight: 0;
@@ -220,7 +221,7 @@ a#textSobre {
     width: 1137.28px;
     height: 954px;
     left: 164px;
-    top: 100px;
+    top: -800px;
 }
 
 h1#caractericasMinhas {
@@ -262,7 +263,7 @@ h1#caractericasMinhas {
     position: absolute;
     width: 200px;
     height: 50px;
-    left: 740px;
+    left: 930px;
     top: 130px;
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
@@ -279,8 +280,8 @@ h1#caractericasMinhas {
     position: absolute;
     width: 200px;
     height: 87px;
-    left: 200px;
-    top: 520px;
+    left: 215px;
+    top: 590px;
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
     font-weight: 800;
@@ -296,8 +297,8 @@ h1#caractericasMinhas {
     position: absolute;
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 540px;
+    left: 930px;
+    top: 610px;
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
     font-weight: 800;
@@ -483,13 +484,17 @@ align-items: center;
 color: #FFFFFF;
 }
 .retangulo2{
+    left: 200px;
     top: -50px;
+}
+.retangulo4{
+    left: 200px;
 }
 @media (max-width: 600px){
     .body{
      zoom: 50%;
     }
-    button#meConheca{
+    li#meConheca{
         top: 450px;
     }
     .segundoTitulo{
@@ -508,6 +513,7 @@ color: #FFFFFF;
         top:350px;
     }
    
+    
     .retangulo2{
         top:350px;
         left: -600px;
@@ -539,20 +545,18 @@ color: #FFFFFF;
     .dedicacaoTrabalho{
         left: 780px;
     }
+    
 }
-@media (max-width: 800px){
+@media (max-width: 900px){
     .body{
      zoom: 50%;
     }
-    button#meConheca{
+    li#meConheca{
         top: 450px;
     }
     .segundoTitulo{
         top: 250px;
     }
-   .tituloDisponibilidadeServico{
-       left: 800px;
-   }
     .textoApresentacao{
         top:300px ;
     }
@@ -565,14 +569,6 @@ color: #FFFFFF;
     .caracteristica{
         top:-300px ;
     }
-    
-    .tituloImpressao{
-        top: 600px;
-    }
-    .tituloDedicacaoTrabalho{
-       top: 620px;
-        left: 790px;
-    }  
     .disponibilidadeServico{
         left: 780px;
     }  
