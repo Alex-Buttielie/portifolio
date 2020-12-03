@@ -15,3 +15,4 @@ function diminui(obj) {
 function teste (){
     alert = 'teste';
 }
+

@@ -18,11 +18,6 @@ app.interceptor(function (req, res, next) {
     next();
 });
 
-app.get('/index',function (req, res) {
-  res.sendFile(path + 'index.html');
-  
-});
-
 app.get('/relatos', function (req, res) {
     res.write(JSON.stringify(relatos));
     res.end();
