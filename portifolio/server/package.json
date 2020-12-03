@@ -2,7 +2,7 @@
   "name": "portifolio",
   "version": "1.0.0",
   "description": "portifolio",
-  "main": "app.js",
+  "main": "http",
   "directories": {
     "lib": "lib"
   },

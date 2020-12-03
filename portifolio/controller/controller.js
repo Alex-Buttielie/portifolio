@@ -2,7 +2,7 @@ angular
 .module("projetoPortifolio")
 .controller("portifolioController", portifolioController);
 
-        function projetoCtrl(portifolioController, $scope) {
+        function portifolioController(relatosAPI, $scope) {
           
         var vm = this;
 

@@ -3,6 +3,7 @@ angular
     .factory("relatosAPI", relatosAPI);
 
 var vm = this;
+
     function relatosAPI($http, config) {
         
 
@@ -12,11 +13,11 @@ var vm = this;
         vm.alterarRelado = alterarRelado;
 
         function getRelatos() {
-            return $http.get(config.baseUrl + "/relato/listarTodos")
+            return $http.get(config.baseUrl + "/relatos")
         };
 
         function saveRelato(relato) {
-            return $http.post(config.baseUrl + "/relato", relato);
+            return $http.post(config.baseUrl + "/relatos", relato);
         };
 
         function excluirRelato(relato){
@@ -24,7 +25,7 @@ var vm = this;
         };
 
         function alterarRelado(relato){
-            return $http.put(config.baseUrl + "/relato/", relato)
+            return $http.put(config.baseUrl + "/relato/", relato.id)
         };
 
         return{

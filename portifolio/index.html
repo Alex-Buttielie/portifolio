@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="portifolioController">
+<html ng-app="projetoPortifolio">
 
 <head>
     <title>Alex Alves</title>
@@ -7,10 +7,12 @@
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.js">
     <link rel="stylesheet" type="text/css" href="style/index.css"/>
     <script src="lib/angular/angular.js"></script>
-    <script language="javascript" src="app.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script language="javascript" src="server/app.js"></script>
     <script language="javascript" src="controller/controller.js"></script>
-    <script language="javascript" src="controller/funcoes.js"></script>
+   <!-- <script language="javascript" src="controller/funcoes.js"></script>-->
     <script language="javascript" src="services/testemunhoService.js"></script>
+    <script language="javascript" src="config/routeConfig.js"></script>
     <script language="javascript" src="value/configValue.js"></script>
 
     
@@ -21,8 +23,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins:wght@400;900&family=Syne+Tactile&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bebas+Neue&family=Poppins:wght@400;900&family=Syne+Tactile&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Grandstander&display=swap" rel="stylesheet">
-<body>
+<body ng-controller="portifolioController as vm">
   <div ng-view></div>
+  <div ng-include="'view/landing-page.html'"></div>
   <div ng-include="'view/footer.html'"></div>
+  
 </body>
 </html>

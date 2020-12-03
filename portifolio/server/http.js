@@ -1,5 +1,6 @@
-var service = require('./servidor');
-var express = require ('express')
+var service = require ('./servidor');
+var express = ('express')
+var bodyParser = require('body-parser');
 var vm = this;
 var app = service(3000);
 
