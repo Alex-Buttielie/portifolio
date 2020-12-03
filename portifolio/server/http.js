@@ -1,5 +1,6 @@
 var service = require ('./servidor');
 var express = ('express')
+const path = require('path');
 var bodyParser = require('body-parser');
 var vm = this;
 var app = service(3000);
@@ -15,6 +16,11 @@ app.interceptor(function (req, res, next) {
 app.interceptor(function (req, res, next) {
     res.setHeader('Content-Type', 'application/json;charset=UTF-8');
     next();
+});
+
+app.get('/index',function (req, res) {
+  res.sendFile(path + 'index.html');
+  
 });
 
 app.get('/relatos', function (req, res) {
