@@ -511,9 +511,7 @@ color: #FFFFFF;
     }
     .caracteristica{
         top:350px;
-    }
-   
-    
+    } 
     .retangulo2{
         top:350px;
         left: -600px;
@@ -547,9 +545,9 @@ color: #FFFFFF;
     }
     
 }
-@media (max-width: 900px){
+@media (min-width: 900px){
     .body{
-     zoom: 50%;
+     zoom: 100%;
     }
     li#meConheca{
         top: 450px;
@@ -578,7 +576,6 @@ color: #FFFFFF;
     .dedicacaoTrabalho{
         left: 780px;
     }
-
-    
+  
    
 }
