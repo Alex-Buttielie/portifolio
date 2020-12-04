@@ -9,6 +9,15 @@ angular.module("projetoPortifolio").config(function ($routeProvider) {
 			},
 		}
 	});
+	$routeProvider.when("/crud", {
+		templateUrl: "view/crud.html",
+		controller: "portifolioController",
+		resolve: {
+			relatos: function (relatosAPI) {
+				return relatosAPI.getRelatos();
+			},
+		}
+	});
 	
 	$routeProvider.otherwise({redirectTo: "/relatos"});
 });
