@@ -3,7 +3,7 @@ var express = ('express')
 const path = require('path');
 var bodyParser = require('body-parser');
 var vm = this;
-var app = service(3000);
+var app = service(process.env.PORT ||3000);
 
 var relatos = [];
 
